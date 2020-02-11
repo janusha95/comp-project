@@ -1,0 +1,124 @@
+body {
+    background: #ceefe4;
+  }
+  
+  .header-flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+  
+  }
+  
+  .logo {
+    background: url('../img/') no-repeat  ;
+    background-size: contain;
+    margin: 1.4em 0 1.4em 1.4em;
+    width: 2em;
+    position: relative;
+  
+  
+  }
+  
+  .main-nav{
+    display: flex;
+    position: relative;
+    
+  }
+  
+  .main-nav-bar{
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: white;
+    left: 0%;
+    top: 50%;
+    display: none;
+  }
+  
+  .main-nav-bar li {
+    padding: 1.5em;
+    font-size: 1.5em;
+  }
+
+  
+  .search {
+    padding: 1em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search [type="text"]{
+    height: 100%;
+    width: 100%;
+    border: none;
+    height: 2em;
+    width: 50em;
+    box-shadow: 0.08em 0.08em 2px rgb(233, 232, 232);
+    background-color: white;
+  }
+  
+  .search .search-nav {
+    margin-top: 0.4em;
+    text-align: left; 
+  }
+  
+  button{
+    border: none;
+    box-shadow: 0.08em 0.08em 2px rgb(233, 232, 232);
+    background-color: white;
+    padding: 0.5em;
+    
+  }
+
+  @media only screen and (min-width: 900px) {
+  
+    main {
+      display: flex;
+    }
+    
+    .header-flex-container {
+      flex-direction: column;
+      border: solid;
+      border: solid #005792;
+    }
+  
+  
+    .logo {
+      background: url('../img/logo-full.svg') no-repeat  ;
+      background-size: contain;
+      border: solid #13334c;
+      width: 10em;
+      height: auto;
+      margin: 0;
+      background-position: center;
+    }
+    
+    .main-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      border: solid#8ac6d1;
+      /* height: 200px; */
+      position: static;
+    }
+  
+    .main-nav-bar{
+      flex-direction: row;
+      justify-content: space-evenly;
+      position: static;
+      background-color: white;
+      /* left: 0%;
+      top: 50%; */
+      z-index: 2;
+      height: auto;
+      width: 100%;
+      display: flex;
+    }
+  
+    .main-nav-bar li {
+      padding: 1.5em;
+      /* border-bottom: 0.01em solid lightgray; */
+      font-size: 1em;
+    }
+  }
+ 
