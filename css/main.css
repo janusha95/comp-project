@@ -231,9 +231,9 @@ body {
     }
     .container-body {
       background-color: #8ac6d1;
-      height: 200em;
+      height: 150em;
 	    display: grid;
-      grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+      grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
       grid-template-columns: 1fr 2fr 2fr;
       margin: 2em;
       padding: 1em;
@@ -318,9 +318,10 @@ body {
     }
     .container-job-one {
       background-color: #e2482d;
-	    display: grid;
-      grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      display: grid;
+      height: 15em;
+      grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
       padding: 1em;
       grid-gap: 1em;
     }
@@ -366,9 +367,6 @@ body {
       grid-column-start: 2;
       grid-column-end: 3;
     }
-    
-
-
   } 
 }
 
