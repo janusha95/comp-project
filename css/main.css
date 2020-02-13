@@ -137,20 +137,27 @@ body {
       grid-column-end: 3;
     }
     .search-button { 
-     background-color: #D3E8CA;
-     grid-row-start: 1;
-     grid-column-start: 3;
-     grid-column-end: 4;
+      background-color: #D3E8CA;
+      grid-row-start: 1;
+      grid-column-start: 3;
+      grid-column-end: 4;
     }
     .container-body {
       background-color: rgb(53, 52, 52);
 	    width: 80em;
       height: 50em;
 	    display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       margin: 2em;
     }
-  
+    .filters {
+      background-color: #D3E8CA;
+      grid-row-start: 1;
+      grid-row-end: 11;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
   } 
 }
 
