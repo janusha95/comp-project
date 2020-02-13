@@ -118,15 +118,14 @@ body {
 	    display: grid;
       grid-template-columns: 1fr 1fr 0.1fr;
       grid-gap: 0.3em;
-      
+      margin: 2em;
       
     }
     .title {
       background-color: #D3E8CA; 
       grid-row-start: 1;
       grid-column-start: 1;
-      grid-column-end: 2;
-
+      grid-column-end: 2; 
     }
     .loc {
       background-color: #D3E8CA; 
