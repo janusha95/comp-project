@@ -317,7 +317,7 @@ body {
       grid-column-end: 6;
     }
     .container-job-one {
-      background-color: #e2482d;
+      background-color: #ceefe4;
       display: grid;
       height: 15em;
       grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -326,49 +326,53 @@ body {
       grid-gap: 1em;
     }
     .company-logo {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 1;
       grid-row-end: 11;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .company-post {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 1;
       grid-row-end: 3;
       grid-column-start: 2;
       grid-column-end: 5;
     }
     .company-name {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 3;
       grid-row-end: 5;
       grid-column-start: 2;
       grid-column-end: 4;
     }
     .company-loc {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 5;
       grid-row-end: 6;
       grid-column-start: 2;
       grid-column-end: 3;
     }
     .post-brief {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 6;
       grid-row-end: 10;
       grid-column-start: 2;
       grid-column-end: 8;
     }
     .post-time {
-      background-color: rgb(106, 189, 71);
+      /* background-color: rgb(106, 189, 71); */
       grid-row-start: 10;
       grid-row-end: 11;
       grid-column-start: 2;
       grid-column-end: 3;
     }
-  } 
-}
+    .company-post-design{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5em;
+    }
+  }
+} 
 
   
  
