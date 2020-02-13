@@ -159,6 +159,10 @@ body {
   }
 
   @media only screen and (min-width: 900px) {
+
+    body{
+      background: #ceefe4;
+    }
   
     main {
       display: flex;
@@ -316,7 +320,7 @@ body {
       grid-column-start: 2;
       grid-column-end: 6;
     }
-    .container-job-one {
+    .container-job {
       background-color: #ceefe4;
       display: grid;
       height: 15em;
@@ -372,7 +376,6 @@ body {
       font-size: 1.5em;
     }
   }
-} 
 
   
  
