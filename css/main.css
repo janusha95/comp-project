@@ -74,7 +74,7 @@
   }
   
   
-
+  
   @media only screen and (min-width: 900px) {
 
     .logo {
@@ -151,6 +151,44 @@
       grid-row-end: 1;
       grid-column-start: 6;
       grid-column-end: 7;
+    }
+    .container-body{
+      background-color: #8ac6d1;
+      /* height: 161em; */
+      display: grid;
+      grid-template-rows: 2fr 2fr 2fr 2fr;
+      grid-template-columns: 1fr;
+      margin: 2em;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .body-search-tag{
+      background-color: rgb(175, 50, 148);
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .body-pop-search{
+      background-color: lawngreen;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .body-reviews{
+      background-color: rgb(218, 221, 28);
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .body-top-hiring{
+      background-color: crimson;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
   }
 }
