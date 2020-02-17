@@ -303,9 +303,8 @@
     .container-footer{
       background-color: orchid;
       display: grid;
-      grid-template-rows: 2fr 1fr;
+      grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-       padding: 1em;
       grid-gap: 1em; 
     }
     .follow-us-section{
@@ -322,19 +321,15 @@
       grid-column-start: 3;
       grid-column-end: 4;
     }
-    .left-menu-section{
+    .menu-section{
       background-color: salmon;
-      grid-row-start: 2;
-      grid-row-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
       grid-column-start: 1;
-      grid-column-end: 2;
-    }
-    .right-menu-section{
-      background-color: rgb(40, 196, 92);
-      grid-row-start: 2;
-      grid-row-end: 2;
-      grid-column-start: 3;
       grid-column-end: 4;
+    }
+    .follow-us-title{
+      padding: 1.5em;
     }
     .social-media-flex{
       background-color: orangered;
@@ -350,6 +345,9 @@
       margin: 0;
       background-position: center;
     }
+    .download-app-title{
+      padding: 1.5em;
+    }
     .download-app-flex{
       background-color: orangered;
       display: flex;
@@ -359,15 +357,21 @@
     .download-google-logo{
       background-size: contain;
       width: auto;
-      height: 5em;
-      margin: 0;
+      height: 6em;
+      /* margin-bottom: 6em; */
     }
     .download-apple-logo{
       background-size: contain;
       width: auto;
-      height: 5em;
-      margin: 0;
+      height: 6em;
+      /* margin-bottom: 6em; */
     }
+   .menu-list{
+     display: inline;
+     margin-inline-start: 6em;
+     justify-content: space-evenly;
+     text-align: center;
+   }
   }
 }
   
