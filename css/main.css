@@ -300,6 +300,42 @@
       flex-shrink: 2;
       justify-content: center;
     }
+    .container-footer{
+      background-color: orchid;
+      display: grid;
+      grid-template-rows: 2fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+       padding: 1em;
+      grid-gap: 1em; 
+    }
+    .follow-us-section{
+      background-color: rebeccapurple;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .get-app-section{
+      background-color: red;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+    .left-menu-section{
+      background-color: salmon;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .right-menu-section{
+      background-color: rgb(40, 196, 92);
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
   }
 }
   
