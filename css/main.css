@@ -243,7 +243,7 @@
       grid-column-start: 1;
       grid-column-end: 3;
     }
-    .container-section-two{
+    .container-section-three{
       display: grid;
       /* height: 15em; */
       grid-template-rows: 1fr 1fr 1fr;
