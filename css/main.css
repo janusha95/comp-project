@@ -228,6 +228,9 @@
       grid-row-end: 1;
       grid-column-start: 1;
       grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
+      text-align: center;
     }
     .search-loc{
       background-color: azure;
@@ -235,6 +238,9 @@
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
+      text-align: center;
     }
     .search-button{
       background-color: pink;
@@ -242,6 +248,8 @@
       grid-row-end: 4;
       grid-column-start: 1;
       grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
     }
     .container-section-three{
       display: grid;
