@@ -257,6 +257,7 @@
       grid-row-end: 1;
       grid-column-start: 1;
       grid-column-end: 6;
+      justify-self: center;
     }
     .review-post-one{
       background-color: brown;
@@ -292,6 +293,7 @@
       grid-row-end: 1;
       grid-column-start: 1;
       grid-column-end: 2;
+      justify-self: center;
     }
     .companies-flex{
       background-color: orangered;
