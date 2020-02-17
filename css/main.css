@@ -199,7 +199,7 @@
       display: grid;
       /* height: 15em; */
       grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 2fr 2fr;
       padding: 1em;
       grid-gap: 1em;
     }
@@ -387,6 +387,37 @@
      justify-content: space-evenly;
      text-align: center;
    }
+    .input-container{
+      display: flex;
+      width: 15em;
+      margin-bottom: 1em;
+    }
+    .icon {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+    }
+    .input-field {
+      width: 100%;
+      padding: 1em;
+      outline: none;
+    }
+    .btn {
+      background-color: dodgerblue;
+      color: white;
+      padding: 1em;
+      border: none;
+      cursor: pointer;
+      width: 10em;
+      opacity: 0.9;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      opacity: 1;
+    }
   }
 }
   
