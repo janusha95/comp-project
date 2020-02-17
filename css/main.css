@@ -418,6 +418,14 @@
     .btn:hover {
       opacity: 1;
     }
+    .company-logo{
+      background-size: contain;
+      width: 8em;
+      height: 8em;
+      margin: 0;
+      background-position: center;
+
+    }
   }
 }
   
