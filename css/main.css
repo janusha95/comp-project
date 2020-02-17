@@ -279,6 +279,27 @@
       grid-column-start: 3;
       grid-column-end: 4; 
     }
+    .container-section-four{
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .top-hiring-title{
+      background-color: navy;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .companies-flex{
+      background-color: orangered;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 2;
+      justify-content: center;
+    }
   }
 }
   
