@@ -336,6 +336,20 @@
       grid-column-start: 3;
       grid-column-end: 4;
     }
+    .social-media-flex{
+      background-color: orangered;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 2;
+      justify-content: center;
+    }
+    .social-media-logo{
+      background-size: contain;
+      width: 3em;
+      height: 3em;
+      margin: 0;
+      background-position: center;
+    }
   }
 }
   
