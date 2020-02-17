@@ -17,6 +17,7 @@
 -   drop down for language in index.html
 -   drop down for filters in job-detail.html
 -  drop down for menu for mobile
+-   layout for review in index page
 
 ## Check with Rocco
 -   How to do popular search section lik i need
