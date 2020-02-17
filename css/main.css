@@ -350,6 +350,24 @@
       margin: 0;
       background-position: center;
     }
+    .download-app-flex{
+      background-color: orangered;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .download-google-logo{
+      background-size: contain;
+      width: auto;
+      height: 5em;
+      margin: 0;
+    }
+    .download-app-logo{
+      background-size: contain;
+      width: auto;
+      height: 5em;
+      margin: 0;
+    }
   }
 }
   
