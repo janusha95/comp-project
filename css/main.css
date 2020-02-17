@@ -74,7 +74,7 @@
   }
   
   
-  
+
   @media only screen and (min-width: 900px) {
 
     .logo {
@@ -189,6 +189,29 @@
       grid-row-end: 5;
       grid-column-start: 1;
       grid-column-end: 2;
+    }
+    .container-section-one {
+      display: grid;
+      /* height: 15em; */
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .quotes-section{
+      background-color: crimson;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .search-section{
+      background-color: coral;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .image-section{
+      background-color: aqua;
+      grid-column-start: 3;
+      grid-column-end: 4;
     }
   }
 }
