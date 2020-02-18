@@ -8,23 +8,25 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 5fr 1fr 1fr;
+    background-color: #ffb6b9;
   }
   .header-logo{
-    background-color: green;
+    /* background-color: #8ac6d1; */
     grid-row-start: 1;
-   grid-row-end: 1;
+    grid-row-end: 1;
     grid-column-start: 1;
-   grid-column-end: 2;
+    grid-column-end: 2;
+    padding-left:0.5em;
   }
   .header-join-now{
-    background-color: pink;
+    /* background-color: pink; */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 2;
     grid-column-end: 3;
   }
   .header-sign-in{
-    background-color: blue;
+    /* background-color: blue; */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 3;
@@ -38,35 +40,35 @@
     margin: 1em;
   }
   .menu-upl-res{
-    background-color: violet;
+    /* background-color: violet; */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 2;
   }
   .menu-post-job{
-    background-color: pink;
+    /* background-color: pink; */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 2;
     grid-column-end: 3;
   }
   .menu-career-act{
-    background-color: coral;
+    /* background-color: coral; */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 3;
     grid-column-end: 4;
   }
   .menu-resume-help{
-    background-color: rgb(207, 52, 47);
+    /* background-color: rgb(207, 52, 47); */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 4;
     grid-column-end: 5;
   }
   .menu-language{
-    background-color: rgb(175, 50, 148);
+    /* background-color: rgb(175, 50, 148); */
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 6;
@@ -88,37 +90,41 @@
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 7fr 1fr 1fr;
+      background-color: #ffb6b9;
     }
     .header-logo{
-      background-color: green;
       grid-row-start: 1;
-     grid-row-end: 1;
+      grid-row-end: 1;
       grid-column-start: 1;
-     grid-column-end: 2;
+      grid-column-end: 2;
     }
     .header-join-now{
-      background-color: pink;
+      /* background-color: pink; */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 2;
       grid-column-end: 3;
+      justify-self: center;
+      padding-top: 2em;
     }
     .header-sign-in{
-      background-color: blue;
+      /* background-color: blue; */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 3;
       grid-column-end: 4;
+      justify-self: center;
+      padding-top: 2em;
     }
     .container-menu {
-      background-color: gray;
+      background-color: #fae3d9;
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr;
        /* padding: 2em;  */
     }
     .menu-upl-res{
-      background-color: violet;
+      /* background-color: violet; */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
@@ -126,7 +132,7 @@
       margin: 1em;
     }
     .menu-post-job{
-      background-color: pink;
+      /* background-color: pink; */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 2;
@@ -134,7 +140,7 @@
       margin: 1em;
     }
     .menu-career-act{
-      background-color: coral;
+      /* background-color: coral; */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 3;
@@ -142,7 +148,7 @@
       margin: 1em;
     }
     .menu-resume-help{
-      background-color: rgb(207, 52, 47);
+      /* background-color: rgb(207, 52, 47); */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 4;
@@ -150,7 +156,7 @@
       margin: 1em;
     }
     .menu-language{
-      background-color: rgb(175, 50, 148);
+      /* background-color: rgb(175, 50, 148); */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 6;
@@ -158,38 +164,38 @@
       margin: 1em;
     }
     .container-body{
-      background-color: #8ac6d1;
+      background-color: #B9EDF8;
       /* height: 161em; */
       display: grid;
-      grid-template-rows: 2fr 2fr 2fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
       margin: 2em;
       padding: 1em;
       grid-gap: 1em;
     }
     .body-search-tag{
-      background-color: rgb(175, 50, 148);
+      /* background-color: #ffb6b9;  */
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-pop-search{
-      background-color: lawngreen;
+      /* background-color: lawngreen; */
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-reviews{
-      background-color: rgb(218, 221, 28);
+      /* background-color: rgb(218, 221, 28);*/
       grid-row-start: 3;
       grid-row-end: 4;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-top-hiring{
-      background-color: crimson;
+      /* background-color: crimson; */
       grid-row-start: 4;
       grid-row-end: 5;
       grid-column-start: 1;
@@ -199,27 +205,42 @@
       display: grid;
       /* height: 15em; */
       grid-template-rows: 1fr;
-      grid-template-columns: 1.5fr 2fr 2fr;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .quotes-search-section{
+      /* background-color: coral; */
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .image-section{
+      /* background-color: aqua; */
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .container-quotes-search{
+      display: grid;
+      height: 15em;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
       padding: 1em;
       grid-gap: 1em;
     }
     .quotes-section{
-      background-color: crimson;
+      grid-row-start: 1;
+      grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .search-section{
-      background-color: coral;
-      grid-column-start: 2;
-      grid-column-end: 3;
-    }
-    .image-section{
-      background-color: aqua;
-      grid-column-start: 3;
-      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
     .search-container{
-      background-color: brown;
+      /* background-color: brown; */
       display: grid;
       height: 15em;
       grid-template-rows: 1fr 1fr 1fr;
@@ -227,8 +248,8 @@
       padding: 1em;
       grid-gap: 1em;
     }
-    .search-title{
-      background-color: rgb(218, 221, 28);
+    /* .search-title{
+      background-color: rgb(218, 221, 28); 
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
@@ -255,7 +276,7 @@
       grid-column-end: 3;
       padding: 1em;
       margin: 0.5em;
-    }
+    } */
     .container-section-three{
       display: grid;
       /* height: 15em; */
@@ -265,7 +286,7 @@
       grid-gap: 1em;
     }
     .review-title{
-      background-color: pink;
+      /* background-color: pink; */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
@@ -301,7 +322,7 @@
       grid-gap: 1em;
     }
     .top-hiring-title{
-      background-color: navy;
+      /* background-color: navy; */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
@@ -309,14 +330,14 @@
       justify-self: center;
     }
     .companies-flex{
-      background-color: orangered;
+      /* background-color: orangered; */
       display: flex;
       flex-direction: row;
       flex-shrink: 2;
       justify-content: center;
     }
     .container-footer{
-      background-color: #27bfda;
+      background-color: #39BAE8;
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr 1fr;
@@ -337,7 +358,7 @@
       grid-column-end: 4;
     }
     .menu-section{
-      background-color: #0cbfdf;
+      background-color: #1F6ED4;
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
