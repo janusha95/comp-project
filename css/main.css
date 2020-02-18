@@ -433,8 +433,8 @@
       grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr;
       /* margin: 0.5em; */
-      padding: 1em;
-      grid-gap: 0.5em;
+      padding: 0.5em;
+      grid-gap: 0.1em;
     }
     .post-column{
       grid-row-start: 1;
@@ -448,7 +448,7 @@
       grid-row-end: 2;
       grid-column-start: 2;
       grid-column-end: 3;
-      background-color: red;
+      background-color: pink
     }
     /* .search-title{
       grid-row-start: 1;
@@ -567,19 +567,24 @@
       margin: 0.5em;
     }
     .container-desc{
-      background-color: yellow;
       display: grid;
       height: 15em;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       padding: 1em;
-      grid-gap: .5em;
+      grid-gap: 1em; 
     }
     .desc-title{
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
+    }
+    .job-desc{
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
     .container-job {
       /* background-color: #ceefe4; */
