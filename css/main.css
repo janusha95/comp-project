@@ -563,7 +563,11 @@
       grid-row-start: 1;
       grid-row-end: 11;
       grid-column-start: 2;
-      grid-column-end: 3; 
+      grid-column-end: 3;
+      margin-left: 0.5em;
+      margin-right: 1em;
+      margin-top: 1em;
+      margin-bottom: 0em;
     }
     .job-desc-header{
       display: block;
