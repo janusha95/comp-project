@@ -569,7 +569,7 @@
     .container-desc{
       display: grid;
       height: 15em;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr;
       padding: 1em;
       grid-gap: 1em; 
@@ -584,6 +584,81 @@
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
+      grid-column-end: 3;
+      padding-left: 2em;
+    }
+    .qual-title{
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .qual-desc{
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding-left: 4em;
+    }
+    .buis-grp-title{
+      grid-row-start: 5;
+      grid-row-end: 6;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .buis-grp{
+      grid-row-start: 6;
+      grid-row-end: 7;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding-left: 2em;
+    }
+    .level-title{
+      grid-row-start: 8;
+      grid-row-end: 9;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .emp-type-title{
+      grid-row-start: 8;
+      grid-row-end: 9;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .level-desc{
+      grid-row-start: 9;
+      grid-row-end: 10;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .emp-type-desc{
+      grid-row-start: 9;
+      grid-row-end: 10;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .job-func-title{
+      grid-row-start: 10;
+      grid-row-end: 11;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .industry-title{
+      grid-row-start: 10;
+      grid-row-end: 11;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .job-func-desc{
+      grid-row-start: 11;
+      grid-row-end: 12;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .industry-desc{
+      grid-row-start: 11;
+      grid-row-end: 12;
+      grid-column-start: 2;
       grid-column-end: 3;
     }
     .container-job {
