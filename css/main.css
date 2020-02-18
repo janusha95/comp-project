@@ -410,42 +410,22 @@
    }
     .input-container{
       display: flex;
-      width: 15em;
+      flex-grow: 1;
       margin-bottom: 1em;
     }
-    .icon {
+    /* .icon {
       padding: 10px;
       background: dodgerblue;
       color: white;
       min-width: 50px;
       text-align: center;
-    }
-    .input-field {
-      width: 100%;
-      padding: 1em;
-      outline: none;
-    }
-    .btn {
-      background-color: dodgerblue;
-      color: white;
-      padding: 1em;
-      border: none;
-      cursor: pointer;
-      width: 10em;
-      opacity: 0.9;
-      text-decoration: none;
-    }
-    
-    .btn:hover {
-      opacity: 1;
-    }
+    } */
     .hiring-company-logo{
       background-size: contain;
       width: 8em;
       height: 8em;
       margin: 0;
       background-position: center;
-
     }
     /* css for job-details.html */
     .container-body-one {
@@ -457,7 +437,7 @@
       grid-template-columns: 1fr 1fr;
       /* margin: 0.5em; */
       padding: 0.5em;
-      grid-gap: 0.1em;
+      grid-gap: 0.1em;ß
     }
     .post-column{
       grid-row-start: 1;
