@@ -430,11 +430,25 @@
       background-color: #8ac6d1;
       height: 161em;
 	    display: grid;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr;
-      margin: 0.5em;
+      /* margin: 0.5em; */
       padding: 1em;
       grid-gap: 0.5em;
+    }
+    .post-column{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background-color: teal;
+    }
+    .detail-column{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      background-color: red;
     }
     /* .search-title{
       grid-row-start: 1;
@@ -443,17 +457,28 @@
       grid-column-end: 2;
       margin : 3em; 
     } */
+    .container-post {
+      background-color: #ceefe4;
+      display: grid;
+      height: 15em;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-gap: .5em;
+    }
     .post-one {
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: rgb(218, 221, 28);
     }
     .post-two {
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: salmon;
     }
     .post-three {
       grid-row-start: 3;
@@ -503,6 +528,12 @@
       grid-column-start: 1;
       grid-column-end: 2;
     }
+    .job-desc-pane{
+      grid-row-start: 1;
+      grid-row-end: 11;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
     .job-desc-header{
       display: block;
     }
@@ -535,8 +566,23 @@
       display: inline;
       margin: 0.5em;
     }
+    .container-desc{
+      background-color: yellow;
+      display: grid;
+      height: 15em;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 1em;
+      grid-gap: .5em;
+    }
+    .desc-title{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
     .container-job {
-      background-color: #ceefe4;
+      /* background-color: #ceefe4; */
       display: grid;
       height: 15em;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
