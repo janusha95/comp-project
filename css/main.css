@@ -316,28 +316,28 @@
       justify-content: center;
     }
     .container-footer{
-      background-color: orchid;
+      background-color: #27bfda;
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1em; 
     }
     .follow-us-section{
-      background-color: rebeccapurple;
+      /* background-color: rebeccapurple; */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .get-app-section{
-      background-color: red;
+      /* background-color: red;*/
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 3;
       grid-column-end: 4;
     }
     .menu-section{
-      background-color: salmon;
+      background-color: #0cbfdf;
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
@@ -347,7 +347,7 @@
       padding: 1.5em;
     }
     .social-media-flex{
-      background-color: orangered;
+      /* background-color: orangered; */
       display: flex;
       flex-direction: row;
       flex-shrink: 2;
@@ -364,7 +364,7 @@
       padding: 1.5em;
     }
     .download-app-flex{
-      background-color: orangered;
+      /* background-color: orangered; */
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -372,14 +372,14 @@
     .download-google-logo{
       background-size: contain;
       width: auto;
-      height: 6em;
-      /* margin-bottom: 6em; */
+      height: 8em;
+      /* margin-bottom: 1em; */
     }
     .download-apple-logo{
       background-size: contain;
       width: auto;
-      height: 6em;
-      /* margin-bottom: 6em; */
+      height: 8em;
+      /* margin-bottom: 1em; */
     }
    .menu-list{
      display: inline;
@@ -441,14 +441,14 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: teal;
+      /* background-color: teal; */
     }
     .detail-column{
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 2;
       grid-column-end: 3;
-      background-color: pink
+      /* background-color: pink */
     }
     /* .search-title{
       grid-row-start: 1;
@@ -458,81 +458,89 @@
       margin : 3em; 
     } */
     .container-post {
-      background-color: #ceefe4;
+      background-color: rgb(147, 196, 236);
       display: grid;
-      height: 15em;
+      height: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
       padding: 1em;
-      grid-gap: .5em;
+      grid-gap: 0.5em;
     }
     .post-one {
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: rgb(218, 221, 28);
+      background-color: #ceefe4; 
     }
     .post-two {
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: salmon;
+      background-color: #ceefe4; 
     }
     .post-three {
       grid-row-start: 3;
       grid-row-end: 4;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-four {
       grid-row-start: 4;
       grid-row-end: 5;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-five {
       grid-row-start: 5;
       grid-row-end: 6;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-six {
       grid-row-start: 6;
       grid-row-end: 7;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-seven {
       grid-row-start: 7;
       grid-row-end: 8;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-eight {
       grid-row-start: 8;
       grid-row-end: 9;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-nine {
       grid-row-start: 9;
       grid-row-end: 10;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .post-ten {
       grid-row-start: 10;
       grid-row-end: 11;
       grid-column-start: 1;
       grid-column-end: 2;
+      background-color: #ceefe4; 
     }
     .job-desc-pane{
       grid-row-start: 1;
       grid-row-end: 11;
       grid-column-start: 2;
-      grid-column-end: 3;
+      grid-column-end: 3; 
     }
     .job-desc-header{
       display: block;
@@ -568,11 +576,12 @@
     }
     .container-desc{
       display: grid;
-      height: 15em;
+      height: 50em;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr;
       padding: 1em;
-      grid-gap: 1em; 
+      grid-gap: 1em;
+      background-color: #ceefe4; 
     }
     .desc-title{
       grid-row-start: 1;
