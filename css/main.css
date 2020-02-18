@@ -232,6 +232,7 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
+      margin: 3em;
     }
     .search-section{
       grid-row-start: 2;
@@ -244,9 +245,39 @@
       display: grid;
       height: 15em;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       padding: 1em;
       grid-gap: 1em;
+    }
+    .input-container{
+      display: flex;
+    }
+    .input-field{
+      background-size: auto 1.5em;
+      background-repeat: no-repeat;
+      background-position: 0.5em center;
+      padding-left: 3em;
+      flex-grow: 1;
+      border-radius: 0.5em;
+      line-height: 3em;
+    }
+    .job{
+      background-image: url(../image/search-icon.svg);
+    }
+    .loc{
+      background-image: url(../image/location-logo.svg);
+    }
+    .button-container{
+      display: flex;
+      border-radius: 0.5em;
+      flex-grow: 0.3;
+    }
+    .btn{
+      background-color: #42B4E7;
+      justify-content: center;
+      font-family: serif;
+      font-weight: 100;
+      font-size: 1.3em;
     }
     /* .search-title{
       background-color: rgb(218, 221, 28); 
@@ -407,19 +438,7 @@
      margin-inline-start: 6em;
      justify-content: space-evenly;
      text-align: center;
-   }
-    .input-container{
-      display: flex;
-      flex-grow: 1;
-      margin-bottom: 1em;
     }
-    /* .icon {
-      padding: 10px;
-      background: dodgerblue;
-      color: white;
-      min-width: 50px;
-      text-align: center;
-    } */
     .hiring-company-logo{
       background-size: contain;
       width: 8em;
@@ -437,7 +456,7 @@
       grid-template-columns: 1fr 1fr;
       /* margin: 0.5em; */
       padding: 0.5em;
-      grid-gap: 0.1em;ß
+      grid-gap: 0.1em;
     }
     .post-column{
       grid-row-start: 1;
