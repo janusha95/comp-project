@@ -337,7 +337,7 @@
       justify-content: center;
     }
     .container-footer{
-      background-color: #39BAE8;
+      background-color: #a1d4e2;
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr 1fr;
@@ -447,8 +447,10 @@
       background-position: center;
 
     }
+    /* css for job-details.html */
     .container-body-one {
-      background-color: #8ac6d1;
+      /* background-color: #8ac6d1; */
+      background-color: #B9EDF8;
       height: 161em;
 	    display: grid;
       grid-template-rows: 1fr;
@@ -479,7 +481,7 @@
       margin : 3em; 
     } */
     .container-post {
-      background-color: rgb(147, 196, 236);
+      /* background-color: rgb(147, 196, 236); */
       display: grid;
       height: auto;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -492,70 +494,70 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-two {
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-three {
       grid-row-start: 3;
       grid-row-end: 4;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-four {
       grid-row-start: 4;
       grid-row-end: 5;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-five {
       grid-row-start: 5;
       grid-row-end: 6;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-six {
       grid-row-start: 6;
       grid-row-end: 7;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-seven {
       grid-row-start: 7;
       grid-row-end: 8;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-eight {
       grid-row-start: 8;
       grid-row-end: 9;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-nine {
       grid-row-start: 9;
       grid-row-end: 10;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .post-ten {
       grid-row-start: 10;
       grid-row-end: 11;
       grid-column-start: 1;
       grid-column-end: 2;
-      background-color: #ceefe4; 
+      background-color: #fafbfd; 
     }
     .job-desc-pane{
       grid-row-start: 1;
@@ -602,7 +604,7 @@
       grid-template-columns: 1fr 1fr;
       padding: 1em;
       grid-gap: 1em;
-      background-color: #ceefe4; 
+      background-color: #fafbfd;   
     }
     .desc-title{
       grid-row-start: 1;
@@ -748,31 +750,32 @@
       background-position: center;
       cursor: pointer;
     }
+    /* check this */
     .container-filter {
-      background-color: gray;
+      background-color: #fae3d9;
       display: flex;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
        /* padding: 2em;  */
     }
     .date-filter{
-      background-color: violet;
+      /* background-color: violet; */
       margin: 1em;
     }
     .experience-filter{
-      background-color: pink;
+      /* background-color: pink; */
       margin: 1em;
     }
     .job-type-filter{
-      background-color: coral;
+      /* background-color: coral; */
       margin: 1em;
     }
     .company-filter{
-      background-color: rgb(207, 52, 47);
+      /* background-color: rgb(207, 52, 47); */
       margin: 1em;
     }
     .salary-filter{
-      background-color: rgb(175, 50, 148);
+      /* background-color: rgb(175, 50, 148); */
       margin: 1em;
     }
   }
