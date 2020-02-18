@@ -232,7 +232,7 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      margin: 3em;
+      margin: 2em;
     }
     .search-section{
       grid-row-start: 2;
@@ -245,7 +245,8 @@
       display: grid;
       height: 15em;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-template-columns: 1fr 1fr 1fr; */
       padding: 1em;
       grid-gap: 1em;
     }
@@ -387,6 +388,9 @@
       grid-row-end: 1;
       grid-column-start: 3;
       grid-column-end: 4;
+    }
+    .get-app{
+      justify-content: center;
     }
     .menu-section{
       background-color: #1F6ED4;
