@@ -718,6 +718,33 @@
       background-position: center;
       cursor: pointer;
     }
+    .container-filter {
+      background-color: gray;
+      display: flex;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       /* padding: 2em;  */
+    }
+    .date-filter{
+      background-color: violet;
+      margin: 1em;
+    }
+    .experience-filter{
+      background-color: pink;
+      margin: 1em;
+    }
+    .job-type-filter{
+      background-color: coral;
+      margin: 1em;
+    }
+    .company-filter{
+      background-color: rgb(207, 52, 47);
+      margin: 1em;
+    }
+    .salary-filter{
+      background-color: rgb(175, 50, 148);
+      margin: 1em;
+    }
   }
 
   
