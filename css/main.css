@@ -354,7 +354,7 @@
       grid-gap: 1em;
     }
     .top-hiring-title{
-      /* background-color: navy; */
+      /* background-color: navy;  */
       grid-row-start: 1;
       grid-row-end: 1;
       grid-column-start: 1;
@@ -362,11 +362,18 @@
       justify-self: center;
     }
     .companies-flex{
-      /* background-color: orangered; */
+      /* background-color: orangered;  */
       display: flex;
       flex-direction: row;
-      flex-shrink: 2;
+      /* flex-shrink: 1; */
       justify-content: center;
+    }
+    .hiring-company-logo{
+      background-size: contain;
+      width: 8em;
+      height: 8em;
+      margin: 0;
+      background-position: center;
     }
     .container-footer{
       background-color: #a1d4e2;
@@ -381,6 +388,7 @@
       grid-row-end: 1;
       grid-column-start: 1;
       grid-column-end: 2;
+      justify-self: center;
     }
     .get-app-section{
       /* background-color: red;*/
@@ -388,6 +396,7 @@
       grid-row-end: 1;
       grid-column-start: 3;
       grid-column-end: 4;
+      justify-self: center;
     }
     .get-app{
       justify-content: center;
@@ -406,15 +415,14 @@
       /* background-color: orangered; */
       display: flex;
       flex-direction: row;
-      flex-shrink: 2;
-      justify-content: center;
+      justify-items: left;
     }
     .social-media-logo{
       background-size: contain;
       width: 3em;
       height: 3em;
       margin: 0;
-      background-position: center;
+      background-position: left;
     }
     .download-app-title{
       padding: 1.5em;
@@ -442,13 +450,6 @@
      margin-inline-start: 6em;
      justify-content: space-evenly;
      text-align: center;
-    }
-    .hiring-company-logo{
-      background-size: contain;
-      width: 8em;
-      height: 8em;
-      margin: 0;
-      background-position: center;
     }
     /* css for job-details.html */
     /* .container-body-one {
