@@ -1,46 +1,70 @@
 
+.container-detail-body {
+  /* background-color: #8ac6d1; */
+   background-color: #B9EDF8;
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 1fr;
+  margin: 2em; 
+  padding: 2em;
+  grid-gap: 1em;
+}
+.detail-column{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* background-color: pink  */
+}
+.post-column{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* background-color: teal; */
+} 
 .job-desc-pane{
-    grid-row-start: 1;
-    grid-row-end: 11;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-left: 0.5em;
-    margin-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 0em;
-  }
-  .job-desc-header{
-    display: block;
-  }
-  .topcard{
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.2);
-  transition: box-shadow 83ms;
-  padding: 24px;
-  margin-bottom: 4px;
-  border-radius: 2px;
-  top: 1px;
-  left: 1px;
-  right: 1px;
-  position: relative;
-  background-color: #fff;
-  width: 100%;
-  }
-  .topcard-content{
-  position: relative;
-  }
-  .topcard-company{
-    display: inline;
-  }
-  .topcard-time-row{
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 100;
-    color: rgba(0,0,0,0.9);
-  }
-  .topcard-applicants{
-    display: inline;
-    margin: 0.5em;
-  }
+  grid-row-start: 1;
+  grid-row-end: 11;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+} 
+.job-desc-header{
+  display: block;
+}
+.topcard{
+box-shadow: 0 0 0 1px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.2);
+transition: box-shadow 83ms;
+padding: 24px;
+margin-bottom: 4px;
+border-radius: 2px;
+top: 1px;
+left: 1px;
+right: 1px;
+position: relative;
+background-color: #fff;
+width: 100%;
+}
+.topcard-content{
+position: relative;
+}
+.topcard-company{
+  display: inline;
+}
+.topcard-time-row{
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 100;
+  color: rgba(0,0,0,0.9);
+}
+.topcard-applicants{
+  display: inline;
+}
   .container-desc{
     display: grid;
     height: 50em;
@@ -221,4 +245,18 @@
   .salary-filter{
     /* background-color: rgb(175, 50, 148); */
     margin: 1em;
+  }
+  .container-viewed{
+    display: flex;
+    height: 50em;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    padding: 1em;
+    /* grid-gap: 1em; */
+    background-color: #fafbfd;
+  }
+  .viewed-title{
+    margin-top:1em;
+    justify-content: left;
   }
