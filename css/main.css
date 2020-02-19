@@ -115,6 +115,28 @@
       grid-column-end: 4;
       justify-self: center;
       padding-top: 2em;
+    } 
+    .sign-in{
+      border-radius: 25px;
+      border: 0.1em solid #0f4c75;
+      padding: 1em;
+      margin:0.5em;
+      width: 7em;
+      height: 3em;
+      margin-top: 1.3em;
+      cursor: pointer;
+      background-color: #ffb6b9e7;
+    }
+    .join-now{
+      border: 0em;
+      padding: 1em;
+      margin:0.5em;
+      width: 7em;
+      height: 3em;
+      margin-top: 1.3em;
+      background-color: #ffb6b9e7; 
+      color: black;
+      cursor: pointer;
     }
     .container-menu {
       background-color: #fae3d9;
@@ -130,6 +152,14 @@
       grid-column-start: 1;
       grid-column-end: 2;
       margin: 1em;
+    }
+    .menu-pane{
+      border: 0em;
+      width:auto;
+      height: auto;
+      background-color: #fae3d9; 
+      color: black;
+      cursor: pointer;
     }
     .menu-post-job{
       /* background-color: pink; */
@@ -162,6 +192,9 @@
       grid-column-start: 6;
       grid-column-end: 7;
       margin: 1em;
+    }
+    .drp-dwn{
+      
     }
     .container-body{
       background-color: #B9EDF8;
@@ -787,6 +820,82 @@
       margin: 1em;
     } 
     */
+  }
+  .container-footer{
+    background-color: #a1d4e2;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em; 
+  }
+  .follow-us-section{
+    /* background-color: rebeccapurple; */
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: center;
+  }
+  .get-app-section{
+    /* background-color: red;*/
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-self: center;
+  }
+  .get-app{
+    justify-content: center;
+  }
+  .menu-section{
+    background-color: #1F6ED4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .follow-us-title{
+    padding: 1.5em;
+  }
+  .social-media-flex{
+    /* background-color: orangered; */
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+  }
+  .social-media-logo{
+    background-size: contain;
+    width: 3em;
+    height: 3em;
+    margin: 0;
+    background-position: left;
+  }
+  .download-app-title{
+    padding: 1.5em;
+  }
+  .download-app-flex{
+    /* background-color: orangered; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .download-google-logo{
+    background-size: contain;
+    width: auto;
+    height: 8em;
+    /* margin-bottom: 1em; */
+  }
+  .download-apple-logo{
+    background-size: contain;
+    width: auto;
+    height: 8em;
+    /* margin-bottom: 1em; */
+  }
+ .menu-list{
+   display: inline;
+   margin-inline-start: 6em;
+   justify-content: space-evenly;
+   text-align: center;
   }
 
   
