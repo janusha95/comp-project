@@ -12,96 +12,88 @@
 	<link rel="stylesheet" href="css/detail.css">
 </head>
 <body>
-    <article>		
-		<header class="container-header">
+    <header>	
+		<section class="container-header">
 			<div class = "header-logo"><a href="index.html"><img class="logo" src="./image/logo.svg" alt="craigslist-logo"></a></div>
             <div class = "header-join-now">Join now</div>
             <div class = "header-sign-in">Sign in</div>
-		</header> 	
-		<div class="container-filter">
-            <div class = "date-filter">Date posted</div>
-            <div class = "experience-filter">Experience level</div>
-            <div class = "job-type-filter">Job Type</div>
-            <div class = "company-filter">Company</div>
-            <div class = "salary-filter">Salary</div>
-		</div>
-	</article>
-			<div class = "detail-column">
-				<div class = "job-desc-pane">
-					<div class = "job-desc-header">
-						<section class="topcard">
-							<div class="topcard-content">
-									<div class = "company-logo-design company-logo"><img src= "image/intel-logo.png" alt="intel-logo"></div>
-									<h4>Senior Digital Design Engineer</h4>
-									<span class = topcard-company>Intel Corporation.</span>
-									<span>Toronto,CA</span>
-									<div class = topcard-time-row>3 hours ago. 
-									<figcaption class = "topcard-applicants"> Be among the first 25 applicants</figcaption></div>
-									<button type="submit" class=" apply-container apply"><a href ="job-detail.html" style="text-decoration: none;">Apply</a></button>
-							</div>		
-						</section>
-					</div>
-					<div class = "container-desc">
-						<h4 class = "desc-title"><u>Job Description</u></h4>
-						<p class = "job-desc">Performs logic design, Register Transfer Level (RTL) coding, and simulation to generate cell libraries, functional units, and subsystems for inclusion in full chip designs. Participates in the development of Architecture and Microarchitecture specifications for the Logic components. Provides IP integration support to SoC customers and represents RTL team.</p>	
-						<h4 class = "qual-title"><u>Qualifications</u></h4>
-						<nav class = "qual-desc">
-							<ul style="list-style-type:circle;">
-								<li>Bachelors of Electrical Engineering with a strong academic record.</li>
-								<li>Good fundamental knowledge of electronics and digital hardware concepts</li>
-								<li>Excellent problem solving skills and attention to detail</li>
-								<li>Strong scripting and/or software development skills.</li>
-								<li>Great communication skills with ability to work independently or as part of a team</li>
-							</ul>	
-						</nav>
-						<h4 class = "buis-grp-title"><u>Inside this Business Group</u></h4>
-						<p class = "buis-grp">The Infrastructure and Platform Solutions Group (IPSG) builds the silicon and platform infrastructure for Intel's silicon design teams. IPSG is comprised of a reusable pool of infrastructure IP blocks, design enabling services such as tools and automation, and a best-in-class post silicon ecosystem that ramps quickly to high volume manufacturing and validation. Our primary mission is to protect Intel's brand by providing the infrastructure necessary to enable all of Intel's products to hit the market on a dependable and predictable cadence.</p>
-						<p class = "level-title">Seniority level</p>
-						<p class = "emp-type-title">Employment type</p>
-						<h6 class = "level-desc">Associate</h6>
-						<h6 class = "emp-type-desc">Full-time</h6>
-						<p class = "job-func-title">Job function</p>
-						<p class = "industry-title">Industries</p>
-						<h6 class = "job-func-desc">Engineering, Information Technology</h6>
-						<h6 class = "industry-desc">Electrical/Electronic Manufacturing, Information Technology and Services, Computer Software</h6>
-					</div>
-				</div>
-			</div>
-		</div>
-	</article>
+		</section> 	
+		<section class="container-menu">
+            <div class = "menu-upl-res">Upload Resume</div>
+            <div class = "menu-post-job">Post a Job</div>
+            <div class = "menu-career-act">Career Action</div>
+            <div class = "menu-resume-help">Resume help</div>
+            <div class = "menu-language">English</div>
+		</section>
+	</header>
+	<main>
+		<section class = "detail-column job-desc-pane">
+			<section class=" job-desc-header topcard topcard-content">
+				<img class = "company-logo-design company-logo" src= "image/intel-logo.png" alt="intel-logo">
+				<h4>Senior Digital Design Engineer</h4>
+				<span class = topcard-company>Intel Corporation.</span>
+				<span>Toronto,CA</span>
+				<p class = topcard-time-row>3 hours ago.</p>
+				<figcaption class = "topcard-applicants"> Be among the first 25 applicants</figcaption></p>
+				<button type="submit" class=" apply-container apply"><a href ="job-detail.html" style="text-decoration: none;">Apply</a></button>
+			</section>
+			<section class = "container-desc">
+				<h4 class = "desc-title"><u>Job Description</u></h4>
+				<p class = "job-desc">Performs logic design, Register Transfer Level (RTL) coding, and simulation to generate cell libraries, functional units, and subsystems for inclusion in full chip designs. Participates in the development of Architecture and Microarchitecture specifications for the Logic components. Provides IP integration support to SoC customers and represents RTL team.</p>	
+				<h4 class = "qual-title"><u>Qualifications</u></h4>
+				<nav class = "qual-desc">
+					<ul style="list-style-type:circle;">
+						<li>Bachelors of Electrical Engineering with a strong academic record.</li>
+						<li>Good fundamental knowledge of electronics and digital hardware concepts</li>
+						<li>Excellent problem solving skills and attention to detail</li>
+						<li>Strong scripting and/or software development skills.</li>
+						<li>Great communication skills with ability to work independently or as part of a team</li>
+					</ul>	
+				</nav>
+				<h4 class = "buis-grp-title"><u>Inside this Business Group</u></h4>
+				<p class = "buis-grp">The Infrastructure and Platform Solutions Group (IPSG) builds the silicon and platform infrastructure for Intel's silicon design teams. IPSG is comprised of a reusable pool of infrastructure IP blocks, design enabling services such as tools and automation, and a best-in-class post silicon ecosystem that ramps quickly to high volume manufacturing and validation. Our primary mission is to protect Intel's brand by providing the infrastructure necessary to enable all of Intel's products to hit the market on a dependable and predictable cadence.</p>
+				<p class = "level-title">Seniority level</p>
+				<p class = "emp-type-title">Employment type</p>
+				<h6 class = "level-desc">Associate</h6>
+				<h6 class = "emp-type-desc">Full-time</h6>
+				<p class = "job-func-title">Job function</p>
+				<p class = "industry-title">Industries</p>
+				<h6 class = "job-func-desc">Engineering, Information Technology</h6>					<h6 class = "industry-desc">Electrical/Electronic Manufacturing, Information Technology and Services, Computer Software</h6>
+			</section>
+		</section>
+	</main>>
 	<footer>
 		<div class = "container-footer">
-			<div class = "follow-us-section">
-				<div class ="follow-us-title">Follow us on</div>
-					<div class = "social-media-flex">
-						<div><img class="social-media-logo" src="./image/Rounded_Facebook_svg-128.png" alt="facebook-logo"></a>
-							<img class="social-media-logo" src="./image/Rounded_Instagram_svg-128.png" alt="instagram-logo"></a>
-							<img class="social-media-logo" src="./image/Rounded_Youtube3_svg-128.png" alt="youtube-logo"></a>
-							<img class="social-media-logo" src="./image/Rounded_Pinterest2_svg-128.png" alt="pinterest-logo"></a>
-							<img class="social-media-logo" src="./image/Rounded_Twitter5_svg-128.png" alt="twitter-logo"></a>
-						</div>
+			<section class = "follow-us-section">
+				<p class ="follow-us-title">Follow us on</p>
+				<div class = "social-media-flex">
+					<div><img class="social-media-logo" src="./image/Rounded_Facebook_svg-128.png" alt="facebook-logo"></article>
+						<img class="social-media-logo" src="./image/Rounded_Instagram_svg-128.png" alt="instagram-logo">
+						<img class="social-media-logo" src="./image/Rounded_Youtube3_svg-128.png" alt="youtube-logo">
+						<img class="social-media-logo" src="./image/Rounded_Pinterest2_svg-128.png" alt="pinterest-logo">
+						<img class="social-media-logo" src="./image/Rounded_Twitter5_svg-128.png" alt="twitter-logo">
 					</div>
 				</div>
-				<div class = "get-app-section">
-					<div class ="download-app-title">Get the App</div>
-						<div class = "download-app-flex">
-							<div><img class="download-google-logo" src="./image/get-it-on-google-play-vector.png" alt="download-on-google-play"></a>
-								<img class="download-apple-logo" src="./image/download-on-the-app-store-badge.png" alt="download-on-app-store"></a>
-							</div>
-						</div>	
-					</div>	
-				</div>
-				<div class = "menu-section">
-					<li class = "menu-list">About</li>
-					<li class = "menu-list">Careers</li>
-					<li class = "menu-list">Developers</li>
-					<li class = "menu-list">Blog</li>
-					<li class = "menu-list">Terms of use</li>
-					<li class = "menu-list">Privacy policy</li>
-					<li class = "menu-list">Copyright</li>
-				</div>
-			</div>	
+			</section>
+			<section class = "get-app-section">
+				<p class ="download-app-title">Get the App<p>
+				<article class = "download-app-flex">
+					<div><img class="download-google-logo" src="./image/get-it-on-google-play-vector.png" alt="download-on-google-play">
+						<img class="download-apple-logo" src="./image/download-on-the-app-store-badge.png" alt="download-on-app-store">
+					</div>
+				</article>
+			</section>	
 		</div>
+		<nav class = "menu-section">
+			<ul><li class = "menu-list">About</li>
+				<li class = "menu-list">Careers</li>
+				<li class = "menu-list">Developers</li>
+				<li class = "menu-list">Blog</li>
+				<li class = "menu-list">Terms of use</li>
+				<li class = "menu-list">Privacy policy</li>
+				<li class = "menu-list">Copyright</li>
+			</ul>	
+		</nav>
 	</footer>
 </body>
 </html>
