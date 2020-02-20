@@ -264,7 +264,8 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      margin: 2em;
+      margin: 0.5em;
+      color: #0f4c75;
     }
     .search-section{
       grid-row-start: 2;
@@ -312,39 +313,6 @@
       font-weight: 100;
       font-size: 1.3em;
     }
-    
-    
-    
-
-    /* .search-title{
-      background-color: rgb(218, 221, 28); 
-      grid-row-start: 1;
-      grid-row-end: 1;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-      text-align: center;
-    }
-    .search-loc{
-      background-color: azure;
-      grid-row-start: 2;
-      grid-row-end: 3;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-      text-align: center;
-    }
-    .search-button{
-      background-color: pink;
-      grid-row-start: 3;
-      grid-row-end: 4;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-    } */
     .container-section-two {
      background-color: pink;
       display: grid;
@@ -353,6 +321,13 @@
       grid-template-columns: 1fr;
       padding: 1em;
       grid-gap: 1em;
+    }
+    .popular-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background:crimson; 
     }
     .container-section-three{
       background-color:navy;
