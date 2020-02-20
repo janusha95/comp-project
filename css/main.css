@@ -205,35 +205,37 @@
     }
     .body-search-tag{
       /* background-color: #ffb6b9;  */
+      background-color: crimson;
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-pop-search{
-      /* background-color: lawngreen; */
+       background-color: lawngreen; 
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-reviews{
-      /* background-color: rgb(218, 221, 28);*/
+      background-color: rgb(218, 221, 28);
       grid-row-start: 3;
       grid-row-end: 4;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .body-top-hiring{
-      /* background-color: crimson; */
+      background-color: crimson; 
       grid-row-start: 4;
       grid-row-end: 5;
       grid-column-start: 1;
       grid-column-end: 2;
     }
     .container-section-one {
+      background-color: pink;
       display: grid;
-      /* height: 15em; */
+      /* height: auto; */
       grid-template-rows: 1fr;
       grid-template-columns: 1fr;
       padding: 1em;
@@ -251,7 +253,7 @@
     }
     .container-quotes-search{
       display: grid;
-      height: 15em;
+      height: 5em;
       grid-template-rows: 1fr 1fr;
       grid-template-columns: 1fr;
       padding: 1em;
@@ -273,7 +275,7 @@
     .search-container{
       /* background-color: brown; */
       display: grid;
-      height: 15em;
+      height: 5em; 
       grid-template-rows: 1fr 1fr 1fr;
       grid-template-columns: repeat(3, 1fr);
       /* grid-template-columns: 1fr 1fr 1fr; */
@@ -309,6 +311,65 @@
       font-family: serif;
       font-weight: 100;
       font-size: 1.3em;
+    }
+    
+    
+    
+
+    /* .search-title{
+      background-color: rgb(218, 221, 28); 
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
+      text-align: center;
+    }
+    .search-loc{
+      background-color: azure;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
+      text-align: center;
+    }
+    .search-button{
+      background-color: pink;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding: 1em;
+      margin: 0.5em;
+    } */
+    .container-section-two {
+     background-color: pink;
+      display: grid;
+      /* height: auto; */
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .container-section-three{
+      background-color:navy;
+      display: grid;
+      /* height: 15em; */
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-gap: 1em;
+    }
+    .review-title{
+      /* background-color: pink; */
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 6;
+      justify-self: center;
     }
     .container-review{
       display: flex;
@@ -414,55 +475,7 @@
       transform: rotate(180deg) translateY(-3.1em);
       opacity: 1;
     }
-    
-    
-
-    /* .search-title{
-      background-color: rgb(218, 221, 28); 
-      grid-row-start: 1;
-      grid-row-end: 1;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-      text-align: center;
-    }
-    .search-loc{
-      background-color: azure;
-      grid-row-start: 2;
-      grid-row-end: 3;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-      text-align: center;
-    }
-    .search-button{
-      background-color: pink;
-      grid-row-start: 3;
-      grid-row-end: 4;
-      grid-column-start: 1;
-      grid-column-end: 3;
-      padding: 1em;
-      margin: 0.5em;
-    } */
-    .container-section-three{
-      display: grid;
-      /* height: 15em; */
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 1em;
-      grid-gap: 1em;
-    }
-    .review-title{
-      /* background-color: pink; */
-      grid-row-start: 1;
-      grid-row-end: 1;
-      grid-column-start: 1;
-      grid-column-end: 6;
-      justify-self: center;
-    }
-    .review-post-one{
+    /* .review-post-one{
       background-color: brown;
       grid-row-start: 2;
       grid-row-end: 4;
@@ -482,8 +495,9 @@
       grid-row-end: 4;
       grid-column-start: 3;
       grid-column-end: 4; 
-    }
+    } */
     .container-section-four{
+       background-color: coral; 
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr;
