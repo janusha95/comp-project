@@ -109,6 +109,34 @@
   font-weight: 100;
   font-size: 1.2em;
 }
+.container-section-two {
+  background-color: pink; 
+  display: grid;
+  height: auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  /* padding: 7em; */
+  grid-gap: 1em;
+} 
+.popular-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* flex-grow: 2; */
+  margin: auto;
+}
+.pop{
+  background-color: #5ec0c0;
+  font-family: serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  border-radius: 1.5em;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0.5em;
+  box-shadow: 0.1em 0.2em #E7475E;
+}
 .container-footer{
   background-color: #a1d4e2;
   display: grid;
