@@ -19,7 +19,7 @@
 .container-job {
   background-color: #fafbfd;
   display: grid;
-  height: 20em;
+  height: 30em;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 2fr 8fr;
   padding-left: 1em;
