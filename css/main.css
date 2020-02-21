@@ -56,6 +56,49 @@
   padding: 1em;
   grid-gap: 1em;
 }
+.container-footer{
+  background-color: #a1d4e2;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em; 
+}
+.follow-us-section{
+  /* background-color: rebeccapurple; */
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-self: left;  
+}
+.get-app-section{
+  /* background-color: red;*/
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  justify-self: right;
+}
+.social-media-logo{
+  background-size: contain;
+  max-width: 1em;
+  max-height: 1em;
+  margin: 0;
+  background-position: left;
+  margin-top: 1em;
+}
+.download-google-logo{
+  background-size: contain;
+  width: auto;
+  height: 3em;
+  margin-bottom: 1em;
+}
+.download-apple-logo{
+  background-size: contain;
+  width: auto;
+  height: 3em;
+  margin-bottom: 1em; 
+} 
   @media only screen and (min-width: 760px) {
 
     .logo {
@@ -364,7 +407,7 @@
     }
      .container-box .box:hover{
       background: #0f4c75;
-     }
+    }
      .container-box .box p {
       margin: 1em;
       padding: 0;
@@ -631,4 +674,3 @@
       text-align: center;
     }
   }
-    
