@@ -19,25 +19,14 @@
 .container-job {
   background-color: #fafbfd;
   display: grid;
-  height: 30em;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 2fr 8fr;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0em;
-  padding-bottom: 1em;
+  height: 20em;
 }
-.company-logo {
-  grid-row-start: 1;
-  grid-row-end: 11;
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-.company-post {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
+.company-post,
+.company-name,
+.company-loc,
+.post-brief,
+.post-time{
+  padding-left: 0.3em;
 }
 .company-name {
   grid-row-start: 3;
@@ -65,7 +54,8 @@
 }
 .company-post-design{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  margin: 0em;
 }
 .company-logo-design{
   background-size: contain;
@@ -193,7 +183,7 @@
     }
     .company-post-design{
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.8em;
     }
     .company-logo-design{
       background-size: contain;

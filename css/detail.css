@@ -1,6 +1,6 @@
 .container-detail-body {
   background-color: #B9EDF8;
-  height: 110em;
+  height: 120em;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
