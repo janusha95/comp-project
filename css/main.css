@@ -523,7 +523,6 @@
       display: flex;
       flex-direction: row;
       justify-self: space-evenly;
-      m
     }
      .pop{
       background-color: #5ec0c0;
@@ -535,7 +534,6 @@
       border: 0;
       /* padding: 0.5em; */
       margin-left: 1em;
-
       box-shadow: 0.1em 0.2em #E7475E;
       justify-items: space-evenly;
     } 
