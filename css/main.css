@@ -56,14 +56,6 @@
   padding: 1em;
   grid-gap: 1em;
 }
-/* .container-section-one {
-  background-color: pink;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-  padding: 1em;
-  grid-gap: 1em;
-} */
 .quotes{
   color: #0f4c75;
   font-size: 1.5em;
@@ -100,14 +92,6 @@
   font-weight: 100;
   font-size: 1.2em;
 }
-/* .container-section-two {
-  background-color: pink; 
-  display: grid;
-  height: auto;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-  grid-gap: 1em;
-}  */
 .popular-button{
   display: flex;
   flex-direction: column;
