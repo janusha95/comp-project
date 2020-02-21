@@ -55,7 +55,7 @@
   grid-template-columns: 1fr;
   padding: 1em;
   grid-gap: 1em;
-  height: 110em;
+  height: 130em;
 }
 .quotes{
   color: #0f4c75;
@@ -74,6 +74,7 @@
   flex-grow: 1;
   border-radius: 0.5em;
   line-height: 2em;
+  margin-top: 1em;
 }
 .job{
   background-image: url(../image/search-icon.svg);
@@ -92,6 +93,8 @@
   font-family: serif;
   font-weight: 100;
   font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .popular-button{
   display: flex;
@@ -109,6 +112,7 @@
   box-sizing: border-box;
   border: 0;
   padding: 0.5em;
+  margin-top: 1em;
   box-shadow: 0.1em 0.2em #E7475E;
 }
 .container-box{
@@ -209,8 +213,6 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  /* padding: 1em; */
-  /* grid-gap: 1em; */
 }
  
 .top-hiring-title{
@@ -222,9 +224,9 @@
 .title{
   justify-self: center;
   color: #0f4c75;
-  font-size: 1em;
-  margin-top: 2em;
-  padding-bottom: 3em;
+  font-size: 1.5em;
+  margin-top: 1em;
+  padding-bottom: 2em;
 }
 .companies-flex{
  display: flex;
@@ -237,6 +239,7 @@
  max-height: 3em;
  margin: 0;
  background-position: center;
+ margin-left: 0.5em;
 }
 .container-footer{
   background-color: #a1d4e2;
@@ -513,24 +516,28 @@
       display: grid;
       grid-template-rows: 1fr;
       grid-template-columns: 1fr;
-      padding: 7em;
-      grid-gap: 1em;
+      padding: 10em;
+      grid-gap: 2em;
     }
     .popular-button{
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-self: space-evenly;
+      m
     }
      .pop{
       background-color: #5ec0c0;
       font-family: serif;
       font-weight: 100;
-      flex-grow: 1;
+      /* flex-grow: 1; */
       font-size: 1.3em;
       border-radius: 1.5em;
       border: 0;
-      padding: 0.5em;
+      /* padding: 0.5em; */
+      margin-left: 1em;
+
       box-shadow: 0.1em 0.2em #E7475E;
+      justify-items: space-evenly;
     } 
     .container-section-three{
       display: grid;
@@ -661,6 +668,7 @@
       max-height: 8em;
       margin: 0;
       background-position: center;
+      padding-left: 1em;
     }
     .container-footer{
       background-color: #a1d4e2;
