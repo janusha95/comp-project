@@ -26,7 +26,6 @@
   padding-right: 1em;
   padding-top: 0em;
   padding-bottom: 1em;
-  /* grid-gap: .5em; */
 }
 .company-logo {
   grid-row-start: 1;

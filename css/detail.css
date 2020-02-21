@@ -1,7 +1,6 @@
 .container-detail-body {
-  /* background-color: #8ac6d1; */
   background-color: #B9EDF8;
-  height: auto;
+  height: 95.5em;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
@@ -9,9 +8,6 @@
   padding: 1em;
   grid-gap: 1em;
 }
-/* .job-desc-header{
-  display: block;
-} */
 .topcard{
 box-shadow: 0 0 0 1px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.2);
 transition: box-shadow 83ms;
@@ -50,10 +46,16 @@ width: 100%;
 .buis-grp{
   padding-left: 2em;
 }
+.container-viewed{
+  display: flex;
+  height: 35em;
+  flex-direction: column;
+  padding: 1em;
+  background-color: #fafbfd;
+}
 
  @media only screen and (min-width: 900px) {
     .container-detail-body {
-      /* background-color: #8ac6d1; */
       background-color: #B9EDF8;
       height: auto;
       display: grid;
@@ -68,14 +70,12 @@ width: 100%;
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 2;
-      /* background-color: pink  */
     }
     .post-column{
       grid-row-start: 1;
       grid-row-end: 2;
       grid-column-start: 2;
       grid-column-end: 3;
-      /* background-color: teal; */
     } 
     .job-desc-pane{
       grid-row-start: 1;
