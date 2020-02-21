@@ -172,7 +172,6 @@
 .quotes{
   color: #0f4c75;
 	font-size: 1em;
-	
 }
 .search-section{
   grid-row-start: 2;
@@ -353,8 +352,6 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  /* padding: 1em;
-  grid-gap: 1em; */
 }
 .top-hiring-title{
   grid-row-start: 1;
@@ -403,6 +400,15 @@
   grid-column-end: 4;
   justify-self: right;
 }
+.follow-us-title{
+  padding-top: 1.5em;
+  padding-left: 1em;
+  align-content: center;
+}
+.download-app-title{
+  padding-top: 1.5em;
+  align-content: center;
+}
 .social-media-logo{
   background-size: contain;
   max-width: 1em;
@@ -410,19 +416,23 @@
   margin: 0;
   background-position: left;
   margin-top: 1em;
+  margin-left: 0.2em;
 }
 .download-google-logo{
   background-size: contain;
   width: auto;
   height: 3em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 .download-apple-logo{
   background-size: contain;
   width: auto;
   height: 3em;
-  margin-bottom: 1em; 
+  margin-bottom: 1.5em; 
 }
+
+
+
 .menu-section{
   background-color: #2F8299;
  }
