@@ -42,8 +42,19 @@ width: 100%;
   padding-left: 0.5em;
 }
 .job-desc,
+.job-func-desc,
 .qual-desc,
-.buis-grp{
+.buis-grp{ 
+  padding-left: 2em;
+}
+.level-title,
+.emp-type-title,
+.job-func-title,
+.industry-title,
+.level-desc,
+.emp-type-desc,
+.job-func-desc,
+.industry-desc{
   padding-left: 2em;
 }
 .container-viewed{
