@@ -12,7 +12,7 @@
 /* Body layout */
 .container-detail-body {
   background-color: var(--main-col);
-  height: 120em;
+  height: 125em;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
@@ -39,6 +39,19 @@ width: 100%;
 .company-post-design{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.5em;
+}
+p , li{
+  font-size: 0.9em;
+  padding-top: 0.6em;
+}
+h5{
+  font-size: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+h4{
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
 }
 .company-logo-design{
   background-size: contain;
@@ -71,7 +84,7 @@ width: 100%;
 }
 .container-viewed{
   display: flex;
-  height: 35em;
+  height: 44em;
   flex-direction: column;
   padding: 1em;
   background-color: var(--cont-col);
@@ -298,7 +311,7 @@ width: 100%;
     /* People also viewed section */
     .container-viewed{
       display: flex;
-      height: 50em;
+      height: auto;
       flex-direction: column;
       padding: 1em;
       background-color: var(--cont-col);
