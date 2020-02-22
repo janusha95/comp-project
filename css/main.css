@@ -1,3 +1,20 @@
+/*-----ROOTS---*/
+
+:root {
+  --main-col: #B9EDF8;
+  --head-col: #ffb6b9;
+  --navbl-col: #0f4c75;
+  --menu-col: #fae3d9;
+  --btn-col: #1F8AFF;
+  --pop-col: #5ec0c0;
+  --shad-col: #E7475E;
+  --dpink-col: #ff0057;
+  --flogo-col: #a1d4e2;
+  --fmen-col: #2F8299;
+}
+
+/* This works for 400-mobile version */
+/* header */
 .logo {
 	background-size: contain;
   width: 6em;
@@ -10,7 +27,7 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 7fr 1fr 1fr;
-  background-color: #ffb6b9;
+  background-color: var(--head-col);
 }
 .header-logo{
   grid-row-start: 1;	
@@ -36,14 +53,14 @@
 }
 .sign-in{
 	border-radius: 25px;
-	border: 0.1em solid #0f4c75;
+	border: 0.1em solid var(--navbl-col);
   padding: 1em;
   margin:0.5em;
   width: 7em;
   height: 3em;
   margin-top: 1.3em;
   cursor: pointer;
-  background-color: #ffb6b9e7;
+  background-color: var(--head-col);
 }
 .join-now{
   border: 0em;
@@ -52,21 +69,22 @@
   width: 7em;
   height: 3em;
   margin-top: 1.3em;
-  background-color: #ffb6b9e7;
+  background-color: var(--head-col);
   color: black;
   cursor: pointer;
 }
 .container-menu {
-  background-color: #fae3d9;
+  background-color: var(--menu-col);
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+/* menu */
 .menu-pane{
   border: 0em;
   width:auto;
   height: auto;
-  background-color: #fae3d9;
+  background-color: var(--menu-col);
   color: black;
 	cursor: pointer;
 	margin: 1em;
@@ -102,13 +120,13 @@
   grid-column-start: 6;
   grid-column-end: 7;
 }
+/* body */
 .container-body{
-  background-color: #B9EDF8;
+  background-color: var(--main-col);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
   margin: 1em;
-  /* padding: 1em; */
 	grid-gap: 1em;
 	height: 120em;
 }
@@ -136,6 +154,7 @@
   grid-column-start: 1;
   grid-column-end: 2;
 }
+/* section one layout for search,image and quote */
 .container-section-one {
   display: grid;
   grid-template-rows: 1fr;
@@ -153,7 +172,6 @@
   grid-row-end: 2;
   grid-column-start: 2;
 	grid-column-end: 3;
-	/* padding: 0.5em; */
 }
 .image{
 	width: 100em;
@@ -170,7 +188,7 @@
   grid-column-end: 2;
 }
 .quotes{
-  color: #0f4c75;
+  color: var(--navbl-col);
 	font-size: 1em;
 }
 .search-section{
@@ -213,11 +231,10 @@
 .button-container{
   display: flex;
   border-radius: 0.5em;
-	/* flex-grow: 0.3; */
 	width: 7em;
 }
 .btn{
-  background-color: #1F8AFF;
+  background-color: var(--btn-col);
   justify-content: center;
   font-family: serif;
   font-weight: 100;
@@ -225,11 +242,11 @@
 	line-height: 2em;
 	margin-top: 1em;
 }
+/* section two for popular searches */
 .container-section-two {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  /* padding: 10em; */
   grid-gap: 1em;
 }
 .popular-button{
@@ -240,7 +257,7 @@
 	margin: auto;
 }
 .pop{
-  background-color: #5ec0c0;
+  background-color: var(--pop-col);
   font-family: serif;
   font-weight: 100;
   font-size: 1.3em;
@@ -249,8 +266,9 @@
 	padding: 0.5em;
 	margin-top: 1em;
 	margin-bottom: 0em;
-  box-shadow: 0.1em 0.2em #E7475E;
+  box-shadow: 0.1em 0.2em var(--shad-col);
 }
+/* section three for reviews */
 .container-box{
 	margin-top: 4em;
 	width:20em;
@@ -263,21 +281,21 @@
   height: 15em;
   transition: 0.5s;
   text-align: center;
-  background: #fae3d9; 
+  background: var(--menu-col); 
   width: 70%;
 }
 .container-box .box:hover{
-  background: #0f4c75;
+  background: var(--navbl-col);
 }
 .container-box .box p {
   padding: 0;
   transition: 0.5s;
-  color: #0f4c75;
+  color: var(--navbl-col);
   font-weight:600;
   font-size: 1em;
 } 
 .container-box .box h4{
-  color: #ff0057;
+  color: var(--dpink-col);
   margin: 2.5em 0 0;
   padding: 0;
   transition: 0.5s;
@@ -287,7 +305,7 @@
   text-transform: capitalize;
 }
 .container-box .box h6{
-  color: #ff0057;
+  color: var(--dpink-col);
   font-size: 10px;
   font-weight: 500;
   line-height: 2em;
@@ -347,7 +365,7 @@
   transform: rotate(180deg) translateY(-1em);
   opacity: 1;
 }
-
+/* section four for top hiring  */
 .container-section-four{
   display: grid;
   grid-template-rows: 1fr;
@@ -361,7 +379,7 @@
 }
 .title{
   justify-self: center;
-  color: #0f4c75;
+  color: var(--navbl-col);
   font-size: 1.5em;
   margin-top: 1em;
   padding-bottom: 2em;
@@ -379,8 +397,9 @@
   background-position: center;
   padding-left: 0.5em;
 }
+/* footer - social media icons */
 .container-footer{
-  background-color: #a1d4e2;
+  background-color: var(--flogo-col);
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -430,11 +449,9 @@
   height: 3em;
   margin-bottom: 1.5em; 
 }
-
-
-
+/* footer menu section */
 .menu-section{
-  background-color: #2F8299;
+  background-color: var(--fmen-col);
  }
 .menu-list{
   color: #222;
@@ -444,6 +461,7 @@
   justify-content: space-around;
   text-align: center;
 }
+  /* This works for desktop version */
 	@media (min-width: 900px) {
 
 		.logo {
@@ -455,7 +473,7 @@
 		}
 		.quotes{
 			margin: 0.5em;
-			color: #0f4c75;
+			color: var(--navbl-col);
 			font-size: 3.5em;
 		}
 		.search-container{
@@ -490,7 +508,6 @@
 			height: 200px;
 			display: inline-flex;
 			padding-right:1.5em;
-			/* padding-left: 1.8em;  */
 		}
 		.container-box .box{
 			padding: 5em 4em;

@@ -1,5 +1,15 @@
+/*-----ROOTS---*/
+
+:root {
+  --bmain-col: #B9EDF8;
+  --contbod-col: #fafbfd;
+  --menubar-col:#fae3d9;
+}
+
+/* This works for 400-mobile version */
+/* Body layout */
 .container-post-body {
-  background-color: #8ac6d1;
+  background-color: var(--bmain-col);
   height: 245em;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -67,8 +77,9 @@
   grid-column-start: 1;
   grid-column-end: 6;
 }
+/* Description of job post layout */
 .container-job {
-  background-color: #fafbfd;
+  background-color: var(--contbod-col);
   display: grid;
   height: 23em;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -127,7 +138,7 @@ p{
   cursor: pointer;
 }
 .container-filter {
-  background-color: #fae3d9;
+  background-color: var(--menubar-col);
   display: flex;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -141,6 +152,7 @@ p{
 {
   margin: 1em;
 }
+ /* This works for desktop version */
   @media only screen and (min-width: 900px) { 
   .container-post-body {
     height: auto;
